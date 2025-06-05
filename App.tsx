@@ -95,7 +95,6 @@ export function HelloTriangle() {
 
   return (
     <View style={{ flex: 1 }}>
-      <Canvas transparent/>
       <Canvas ref={ref} style={{width: 200, height: 200}} transparent />
     </View>
   );
